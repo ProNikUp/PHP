@@ -2,7 +2,7 @@
 //include_once ('setcookie.php');
 include_once ('admincheck.php');
 $decision = $_POST['decision'];
-$login = $_COOKIE['login'];
+//$login = $_COOKIE['login'];
 
 switch ($decision){
     case 'Регистрация':
